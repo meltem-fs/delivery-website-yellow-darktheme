@@ -44,6 +44,22 @@ img {
   text-align: center;
 }
 
+.app__container {
+  gap: 2.5rem;
+}
+.app__data {
+  text-align: center;
+}
+.app__description {
+  margin-bottom: var(--mb-1-5);
+}
+.app__buttons {
+  display: grid;
+  grid-template-columns: repeat(2, max-content);
+  justify-content: center;
+  gap: 0.5rem;
+}
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -58,6 +74,23 @@ img {
 }
 .button:hover {
   background-color: var(--first-color-alt);
+}
+.button__link {
+  background: none;
+  padding: 0;
+  color: var(--title-color);
+}
+.button__link:hover {
+  background-color: transparent;
+}
+.button__icon {
+  font-size: 1.5rem;
+}
+.button-flex {
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  padding: 0.75rem 1rem;
 }
 
 /*=============== HEADER ===============*/
@@ -143,11 +176,36 @@ img {
   margin-bottom: var(--mb-0-75);
 }
 
+.security__container {
+  gap: 2.5rem;
+}
+.security__description {
+  text-align: center;
+}
+
+.services__container {
+  padding-top: 1rem;
+}
+.services__data {
+  display: grid;
+  row-gap: 1rem;
+  background-color: var(--container-color);
+  box-shadow: 0 2px 6px hsla(var(--hue), 100%, 10%, 0.15);
+  padding: 2rem 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.services__img {
+  width: 135px;
+  justify-self: center;
+  margin-bottom: var(--mb-0-5);
+}
+
 :root {
   --header-height: 3rem;
   /*========== Colors ==========*/
-  --hue: 250;
-  --sat: 70%;
+  --hue: 340;
+  --sat: 90%;
   --first-color: hsl(var(--hue), var(--sat), 60%);
   --first-color-light: hsl(var(--hue), var(--sat), 85%);
   --first-color-lighten: hsl(var(--hue), var(--sat), 80%);

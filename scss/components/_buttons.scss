@@ -12,4 +12,21 @@
     &:hover{
         background-color: var(--first-color-alt);
     }
+    &__link{
+        background: none;
+        padding: 0;
+        color: var(--title-color);
+        &:hover{
+            background-color: transparent;
+        }
+    }
+    &__icon{
+        font-size: 1.5rem;
+    }
+    &-flex{
+        display: inline-flex;
+        align-items: center;
+        column-gap: 0.25rem;
+        padding: .75rem 1rem ;
+    }
 }
