@@ -37,6 +37,13 @@ img {
   height: auto;
 }
 
+.about__container {
+  gap: 2.5rem;
+}
+.about__data {
+  text-align: center;
+}
+
 .button {
   display: inline-block;
   background-color: var(--first-color);
@@ -139,8 +146,8 @@ img {
 :root {
   --header-height: 3rem;
   /*========== Colors ==========*/
-  --hue: 45;
-  --sat: 98%;
+  --hue: 250;
+  --sat: 70%;
   --first-color: hsl(var(--hue), var(--sat), 60%);
   --first-color-light: hsl(var(--hue), var(--sat), 85%);
   --first-color-lighten: hsl(var(--hue), var(--sat), 80%);
