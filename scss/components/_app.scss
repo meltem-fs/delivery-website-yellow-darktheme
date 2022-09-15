@@ -1,3 +1,4 @@
+/*=============== APP ===============*/
 .app{
     &__container{
         gap: 2.5rem;
@@ -10,8 +11,8 @@
     }
     &__buttons{
         display: grid;
-        grid-template-columns: repeat(2,max-content);
+        grid-template-columns: repeat(2, max-content);
         justify-content: center;
-        gap: 0.5rem;
+        gap: .5rem
     }
 }
